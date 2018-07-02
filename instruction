@@ -1,0 +1,21 @@
+1. Créer un nouveau projet
+2. Créer un repository egit en ligne sur Github
+3. Initialiser votre projet Git
+4. Créer votre stucture de dossier (html,js,...)
+5. Initialiser votre console google-chrome dans votre projet sur visual studio
+6. Configurer le fichier launch.json (pour pouvoir lancer la page index.html et utilise la console chrome )
+7. Dans le fichier html lier le fichier js
+8. Créer des personnages
+  -une guerriere
+    propriete (nom, age, taille, force, arme)
+  -Un mage
+    propriete (nom, age, taille, force, arme)
+  -une paysanne
+    propriete(nom, age, taille, force, arme)
+  -une Princesse
+    propriete(nom, age, taille, force, arme)
+9. Créer des variables dans lequel vous allez stocke les réponses renvoyees par les objets et méthodes  utiliser sur les propriete (exemple, personnage_1.nom.lenght)
+10. Propriété à utiliser : - lenght
+                           - charAt()
+                           - method qui : vous permet de choisir un certain nombre de caractère dans une chaines de caractère en choissisant l'index de départ et l'index de fin 
+                           - method() qui : permet de concaténer 2 ou plusieurs chaine de caractères

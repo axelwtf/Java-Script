@@ -12,8 +12,8 @@ var une_mage ={
   age: 20,
   taille: 1.76,
   attaque: 100,
-  vie: 80,
-  arme: "acune arme"
+  vie: 90,
+  arme: "Dragon"
 }
 
 var une_paysanne ={

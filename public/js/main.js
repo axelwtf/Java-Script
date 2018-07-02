@@ -7,13 +7,13 @@ var une_guerriere ={
   arme: "Hache et un bouclier"
 }
 
-var une_mage ={
+var un_mage ={
   nom: "Axel",
   age: 20,
   taille: 1.76,
   attaque: 100,
   vie: 90,
-  arme: "Dragon"
+  arme: "Dragon",
 }
 
 var une_paysanne ={
@@ -33,3 +33,8 @@ var une_princesse ={
   vie:90,
   arme: "tarcha",
 }
+
+var une_guerriere = une_guerriere.nom.length
+var une_paysanne= une_paysanne.age.length
+var un_mage= un_mage.arme.length
+var une_princesse= une_princesse.vie.length

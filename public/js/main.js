@@ -1,11 +1,11 @@
-var une_guerriere ={
+var une_guerriere =
+{
   nom: "Lila",
   age: 25,
   taille: 1.60,
   attaque: 80,
   vie: 100,
-  arme: "Hache et un bouclier"
-}
+  };
 
 var un_mage ={
   nom: "Axel",
@@ -14,7 +14,7 @@ var un_mage ={
   attaque: 100,
   vie: 90,
   arme: "Dragon",
-}
+};
 
 var une_paysanne ={
   nom:"Charlotte",
@@ -23,7 +23,7 @@ var une_paysanne ={
   attaque: 60,
   vie: 60,
   arme: "fourche",
-}
+};
 
 var une_princesse ={
   nom:"Sanae",
@@ -32,9 +32,15 @@ var une_princesse ={
   attaque: 50,
   vie:90,
   arme: "tarcha",
-}
+};
 
-var une_guerriere = une_guerriere.nom.length
-var une_paysanne= une_paysanne.age.length
-var un_mage= un_mage.arme.length
-var une_princesse= une_princesse.vie.length
+var gue= une_guerriere.nom.length;
+var pay= une_paysanne.age.length;
+var mag= un_mage.arme.length;
+var prin= une_princesse.vie.length;
+
+var guerriere = une_guerriere.nom.charAt(2);
+var paysanne = une_paysanne.arme.charAt(5);
+var mage = un_mage.arme.charAt(2);
+
+
